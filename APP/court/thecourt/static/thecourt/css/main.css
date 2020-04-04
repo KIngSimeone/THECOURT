@@ -412,6 +412,12 @@ iframe {
   transition: opacity 0.4s;
 }
 
+.container-login100 {
+  
+  background-image: url('images/bg-01.jpg');
+
+}
+
 .alert-validate::after {
   content: "\f06a";
   font-family: FontAwesome;

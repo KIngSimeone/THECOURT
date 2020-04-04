@@ -1,31 +1,32 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{% static 'thecourt/js/bootstrap.min.js' %}"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{% static 'thecourt/fonts/icomoon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'thecourt/css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'thecourt/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'thecourt/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'thecourt/css/owl.theme.default.min.css' %}">
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="{% static 'thecourt/css/jquery.fancybox.min.css' %}">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="{% static 'thecourt/css/bootstrap-datepicker.css' %}">
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="{% static 'thecourt/fonts/flaticon/font/flaticon.css' %}">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="{% static 'thecourt/css/aos.css' %}">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{% static 'thecourt/css/style.css' %}">
     
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'thecourt/css/bootstrap.min.css' %}">
 
-    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'thecourt/fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
 
-    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="{% static 'thecourt/css/chat.css' %}">
   </head>
   <body>
     <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
@@ -34,7 +35,7 @@
           <div class="row align-items-center">
             
             <div class="col-6 col-xl-2">
-              <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">COURT<span class="text-primary"></span> </a></h1>
+              <h1 class="mb-0 site-logo"><a href="{% url 'home' %}" class="h2 mb-0">COURT<span class="text-primary"></span> </a></h1>
             </div>
   
             <div class="col-12 col-md-10 d-none d-xl-block">
@@ -63,7 +64,7 @@
 					<li>
 						<div class="row comments mb-1">
 							<div class="col-md-2 col-sm-2 col-3 text-center user-img">
-						    	<img id="profile-photo" src="images/person_1.jpg" class="rounded-circle" />
+						    	<img id="profile-photo" src="{% static 'thecourt/images/person_1.jpg' %}" class="rounded-circle" />
 							</div>
 							<div class="col-md-9 col-sm-9 col-9 comment rounded mb-2">
 								<h4 class="m-0"><a href="#">Jacks David</a></h4>
@@ -77,7 +78,7 @@
 						<li>
 							<div class="row comments mb-2">
 								<div class="col-md-2 offset-md-2 col-sm-2 offset-sm-2 col-3 offset-1 text-center user-img">
-							    	<img id="profile-photo" src="images/person_2.jpg" class="rounded-circle" />
+							    	<img id="profile-photo" src="{% static 'thecourt/images/person_2.jpg' %}" class="rounded-circle" />
 								</div>
 								<div class="col-md-7 col-sm-7 col-8 comment rounded mb-2">
 									<h4 class="m-0"><a href="#">Steve Alex</a></h4>
@@ -93,7 +94,7 @@
 					<li>
 						<div class="row comments mb-2">
 							<div class="col-md-2 col-sm-2 col-3 text-center user-img">
-						    	<img id="profile-photo" src="images/person_3.jpg" class="rounded-circle" />
+						    	<img id="profile-photo" src="{% static 'thecourt/images/person_3.jpg' %}" class="rounded-circle" />
 							</div>
 							<div class="col-md-9 col-sm-9 col-9 comment rounded mb-2">
 								<h4 class="m-0"><a href="#">Andrew Filander</a></h4>
@@ -107,7 +108,7 @@
 						<li>
 							<div class="row comments mb-2">
 								<div class="col-md-2 offset-md-2 col-sm-2 offset-sm-2 col-3 offset-1 text-center user-img">
-							    	<img id="profile-photo" src="images/person_4.jpg" class="rounded-circle" />
+							    	<img id="profile-photo" src="{% static 'thecourt/images/person_4.jpg' %}" class="rounded-circle" />
 								</div>
 								<div class="col-md-7 col-sm-7 col-8 comment rounded mb-2">
 									<h4 class="m-0"><a href="#">james Cordon</a></h4>
@@ -123,7 +124,7 @@
 					<li>
 						<div class="row comments mb-2">
 							<div class="col-md-2 col-sm-2 col-3 text-center user-img">
-						    	<img id="profile-photo" src="images/person_5.jpg" class="rounded-circle" />
+						    	<img id="profile-photo" src="{% static 'thecourt/images/person_5.jpg' %}" class="rounded-circle" />
 							</div>
 							<div class="col-md-9 col-sm-9 col-9 comment rounded mb-2">
 								<h4 class="m-0"><a href="#">Tye Simmon</a></h4>
@@ -146,5 +147,5 @@
 		</div>
 	</div>
   </body>
-  <script src='js/chat.js'></script>
+  <script src="{% static 'thecourt/js/chat.js' %}"></script>
 </html>

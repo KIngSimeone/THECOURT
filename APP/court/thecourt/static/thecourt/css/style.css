@@ -95,6 +95,11 @@ body:after {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
+.container-login100 {
+  
+  background-image: url('images/bg-01.jpg');
+
+}
 .site-section {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
